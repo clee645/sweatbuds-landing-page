@@ -23,9 +23,9 @@ export default function Hero() {
           </div>
 
           <h1 className="text-[2.75rem] sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] text-ink">
-            Sweat together.
+            Sweat Together,
             <br />
-            Stay accountable.
+            Stay Together
           </h1>
 
           <p className="mt-8 text-lg sm:text-xl text-muted max-w-xl mx-auto lg:mx-0">

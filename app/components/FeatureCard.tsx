@@ -30,7 +30,7 @@ export default function FeatureCard({
         {body}
       </p>
       <div
-        className={`mt-6 sm:mt-8 bg-white rounded-3xl aspect-[4/5] sm:aspect-auto sm:h-[500px] flex justify-center px-6 overflow-hidden ${
+        className={`mt-6 sm:mt-8 bg-white rounded-3xl h-[460px] sm:h-[500px] flex justify-center px-6 overflow-hidden ${
           topAligned ? "items-start pt-12" : "items-end pt-10"
         }`}
       >
@@ -39,9 +39,7 @@ export default function FeatureCard({
           alt={alt}
           className={
             phoneClassName ??
-            (topAligned
-              ? "w-[55%] max-w-[300px] sm:w-[340px] sm:max-w-none"
-              : "w-[40%] max-w-[200px] sm:w-[220px] sm:max-w-none translate-y-6")
+            (topAligned ? "w-[300px] sm:w-[340px]" : "w-[220px] translate-y-6")
           }
           imageStyle={imageStyle}
           imageClassName={imageClassName}

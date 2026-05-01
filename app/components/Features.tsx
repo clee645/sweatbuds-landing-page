@@ -18,7 +18,7 @@ export default function Features() {
             title="Weekly rules, real stakes"
             body="Set how many workouts you'll hit each week and wager something fun if either of you falls short."
             topAligned
-            phoneClassName="w-[45%] max-w-[240px] sm:w-[270px] sm:max-w-none"
+            phoneClassName="w-[270px]"
           />
 
           <FeatureCard
