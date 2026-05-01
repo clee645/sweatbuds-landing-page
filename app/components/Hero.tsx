@@ -3,9 +3,9 @@ import PhoneFrame from "./PhoneFrame";
 
 export default function Hero() {
   return (
-    <section className="px-6 sm:px-10 lg:px-16 pt-16 sm:pt-24 pb-20 sm:pb-32">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-16 lg:gap-32 items-center">
-        <div className="order-2 lg:order-1 lg:pr-0">
+    <section className="px-6 sm:px-10 lg:px-16 pt-10 sm:pt-16 lg:pt-24 pb-20 sm:pb-32">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-32 items-center">
+        <div className="lg:pr-0">
           <div className="flex items-center gap-3 mb-10">
             <div className="w-14 h-14 rounded-2xl overflow-hidden shadow-sm">
               <Image
@@ -22,10 +22,10 @@ export default function Hero() {
             </span>
           </div>
 
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] text-ink">
+          <h1 className="text-[2.75rem] sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] text-ink">
             Sweat together.
             <br />
-            <span className="whitespace-nowrap">Stay accountable.</span>
+            Stay accountable.
           </h1>
 
           <p className="mt-8 text-lg sm:text-xl text-muted max-w-xl">
@@ -41,11 +41,11 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="order-1 lg:order-2 flex justify-center lg:justify-start">
+        <div className="flex justify-center lg:justify-start">
           <PhoneFrame
             src="/hero-phone.png"
             alt="Sweatbuds app shown on iPhone"
-            className="w-[260px] sm:w-[300px] lg:w-[340px]"
+            className="w-[70vw] max-w-[300px] sm:w-[300px] sm:max-w-none lg:w-[340px]"
             priority
           />
         </div>

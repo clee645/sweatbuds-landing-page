@@ -11,14 +11,14 @@ export default function Features() {
           Three simple ways to keep each other moving.
         </p>
 
-        <div className="mt-14 sm:mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
+        <div className="mt-10 sm:mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
           <FeatureCard
             image="/feature-rules.png"
             alt="Weekly Rules screen showing 4 days work out target"
             title="Weekly rules, real stakes"
             body="Set how many workouts you'll hit each week and wager something fun if either of you falls short."
             topAligned
-            phoneClassName="w-[240px] sm:w-[270px]"
+            phoneClassName="w-[45%] max-w-[240px] sm:w-[270px] sm:max-w-none"
           />
 
           <FeatureCard

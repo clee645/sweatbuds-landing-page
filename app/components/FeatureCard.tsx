@@ -23,8 +23,14 @@ export default function FeatureCard({
 }: Props) {
   return (
     <div>
+      <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-ink">
+        {title}
+      </h3>
+      <p className="mt-4 text-base sm:text-lg text-muted leading-relaxed sm:max-w-md">
+        {body}
+      </p>
       <div
-        className={`bg-white rounded-3xl h-[460px] sm:h-[500px] flex justify-center px-6 overflow-hidden ${
+        className={`mt-6 sm:mt-8 bg-white rounded-3xl aspect-[4/5] sm:aspect-auto sm:h-[500px] flex justify-center px-6 overflow-hidden ${
           topAligned ? "items-start pt-12" : "items-end pt-10"
         }`}
       >
@@ -34,19 +40,13 @@ export default function FeatureCard({
           className={
             phoneClassName ??
             (topAligned
-              ? "w-[300px] sm:w-[340px]"
-              : "w-[200px] sm:w-[220px] translate-y-6")
+              ? "w-[55%] max-w-[300px] sm:w-[340px] sm:max-w-none"
+              : "w-[40%] max-w-[200px] sm:w-[220px] sm:max-w-none translate-y-6")
           }
           imageStyle={imageStyle}
           imageClassName={imageClassName}
         />
       </div>
-      <h3 className="mt-8 text-2xl sm:text-3xl font-extrabold tracking-tight text-ink">
-        {title}
-      </h3>
-      <p className="mt-4 text-base sm:text-lg text-muted leading-relaxed max-w-md">
-        {body}
-      </p>
     </div>
   );
 }
