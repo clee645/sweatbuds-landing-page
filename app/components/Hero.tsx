@@ -5,8 +5,8 @@ export default function Hero() {
   return (
     <section className="px-6 sm:px-10 lg:px-16 pt-10 sm:pt-16 lg:pt-24 pb-20 sm:pb-32">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-32 items-center">
-        <div className="lg:pr-0">
-          <div className="flex items-center gap-3 mb-10">
+        <div className="text-center lg:text-left lg:pr-0">
+          <div className="flex items-center justify-center lg:justify-start gap-3 mb-10">
             <div className="w-14 h-14 rounded-2xl overflow-hidden shadow-sm">
               <Image
                 src="/app-icon.png"
@@ -28,7 +28,7 @@ export default function Hero() {
             Stay accountable.
           </h1>
 
-          <p className="mt-8 text-lg sm:text-xl text-muted max-w-xl">
+          <p className="mt-8 text-lg sm:text-xl text-muted max-w-xl mx-auto lg:mx-0">
             The couples fitness app that turns workouts into wins together.
           </p>
 
