@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #fff9f1;
+  --brand: #ff5a5f;
+  --ink: #0e1116;
+  --muted: #5b6168;
+}
+
+html,
+body {
+  background: var(--cream);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-brand: var(--brand);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+}
